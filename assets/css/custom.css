@@ -1,6 +1,13 @@
+#one .image {
+    display: block;
+    padding-bottom: 1em;
+}
 #one .image img {
     height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 #one p {
     margin-left: auto;
