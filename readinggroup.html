@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/readinggroup.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
   </head>
@@ -62,7 +63,7 @@
                         <tr>
                           <th>Date</th>
                           <th>Paper(s)</th>
-                          <th>Presenter</th>
+                          <th>Presenter(s)</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -74,8 +75,43 @@
 
                         <tr>
                           <td>Sep 4, 2019</td>
-                          <td></td>
-                          <td></td>
+                          <td>CVPR recap:
+                            <p class="accordion"><b><u>Vision for Self-Driving</u></b></p>
+                            <div class="panel">
+                              <p>
+                                - <b>Panoptic Segmentation</b>. Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, Piotr Doll&aacute;r. <i>CVPR 2019</i>. [<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Segmentation_CVPR_2019_paper.pdf">paper</a>]<br>
+                                - <b>Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving</b>. Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, Kilian Q. Weinberger. <i>CVPR 2019</i>. [<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Pseudo-LiDAR_From_Visual_Depth_Estimation_Bridging_the_Gap_in_3D_CVPR_2019_paper.pdf">paper</a>]<br>
+                                - <b>Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression</b>. Hamid Rezatofighi, Nathan Tsoi, JunYoung Gwak, Amir Sadeghian, Ian Reid, Silvio Savarese. <i>CVPR 2019</i>. [<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Rezatofighi_Generalized_Intersection_Over_Union_A_Metric_and_a_Loss_for_CVPR_2019_paper.pdf">paper</a>]<br>
+                                - <b>End-to-end Interpretable Neural Motion Planner</b>. Wenyuan Zeng, Wenjie Luo, Simon Suo, Abbas Sadat, Bin Yang, Sergio Casas, Raquel Urtasun. <i>CVPR 2019</i>. [<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zeng_End-To-End_Interpretable_Neural_Motion_Planner_CVPR_2019_paper.pdf">paper</a>]<br>
+                                - <b>Deep Rigid Instance Scene Flow</b>. Wei-Chiu Ma, Shenlong Wang, Rui Hu, Yuxen Xiong, Raquel Urtasun. <i>CVPR 2019</i>. [<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Ma_Deep_Rigid_Instance_Scene_Flow_CVPR_2019_paper.pdf">paper</a>]<br>
+                                - <b>Argoverse: 3D Tracking and Forecasting with Rich Maps</b>. Ming-Fang Chang*, John Lambert*, Patsorn Sangkloy*, Jagjeet Singh*, Slawomir Bak, Andrew Hartnett, De Wang, Peter Carr, Simon Lucey, Deva Ramanan, James Hays. <i>CVPR 2019</i>. [<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_Argoverse_3D_Tracking_and_Forecasting_With_Rich_Maps_CVPR_2019_paper.pdf">paper</a>]
+                                - <b>D2-Net: A Trainable CNN for <i>Joint Description and Detection</i> of Local Features</b>. Mihai Dusmanu, Ignacio Rocco, Tomas Pajdla, Marc Pollefeys, Josef Sivic, Akihiko Torii, Torsten Sattler. <i>CVPR 2019</i>. [<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Dusmanu_D2-Net_A_Trainable_CNN_for_Joint_Description_and_Detection_of_CVPR_2019_paper.pdf">paper</a>]
+                              </p>
+                            </div>
+                            <p class="accordion"><b><u>Incorporating 3D Information in Networks</u></b></p>
+                            <div class="panel">
+                              <p>
+                                - <b>4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks</b>. Christopher Choy, JunYoung Gwak, Silvio Savarese. <i>CVPR 2019</i>. [<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Choy_4D_Spatio-Temporal_ConvNets_Minkowski_Convolutional_Neural_Networks_CVPR_2019_paper.pdf">paper</a>]<br>
+                                - <b>DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation</b>. Jeong Joon Park, Peter Florence, Julian Straub, Richard Newcombe, Steven Lovegrove. <i>CVPR 2019</i>. [<a href="https://arxiv.org/pdf/1901.05103.pdf">arXiv</a>]<br>
+                                - <b>Occupancy Networks: Learning 3D Reconstruction in Function Space</b>. Lars Mescheder, Michael Oechsle, Michael Niemeyer, Sebastian Nowozin, Andreas Geiger. <i>CVPR 2019</i>. [<a href="https://arxiv.org/pdf/1812.03828.pdf">arXiv</a>]<br>
+                                - <b>Pushing the Boundaries of View Extrapolation with Multiplane Images</b>. Pratul P. Srinivasan, Richard Tucker, Jonathan T. Barron. <i>CVPR 2019</i>. [<a href="https://arxiv.org/pdf/1905.00413.pdf">arXiv</a>]<br>
+                                - <b>DeepVoxels: Learning Persistent 3D Feature Embeddings</b>. Vincent Sitzmann, Justus Thies, Felix Heide, Matthias Nie&szlig;ner, Gordon Wetzstein, Michael Zollh&ouml;fer. <i>CVPR 2019</i>. [<a href="https://arxiv.org/pdf/1812.01024.pdf">arXiv</a>]<br>
+                                - <b>Strand-accurate Multi-view Hair Capture</b>. Giljoo Nam, Chenglei Wu, Min H. Kim, Yaser Sheikh. <i>CVPR 2019</i>. [<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Nam_Strand-Accurate_Multi-View_Hair_Capture_CVPR_2019_paper.pdf">paper</a>]
+                              </p>
+                            </div>
+                            <p class="accordion"><b><u>Generative Models</u></b></p>
+                            <div class="panel">
+                              <p>
+                                - <b>A Style-Based Generator Architecture for Generative Adversarial Networks</b>. Tero Karras, Samuli Laine, Timo Aila. <i>CVPR 2019</i>. [<a href="https://arxiv.org/pdf/1812.04948.pdf">arXiv</a>]<br>
+                                - <b>Semantic Image Synthesis with Spatially-Adaptive Normalization</b>. Taesung Park, Ming-Yu Liu, Ting-Chun Wang, Jun-Yan Zhu. <i>CVPR 2019</i>. [<a href="https://arxiv.org/pdf/1903.07291.pdf">arXiv</a>]<br>
+                                - <b>Shapes and Context: In-the-Wild Image Synthesis & Manipulation</b>. Aayush Bansal, Yaser Sheikh, Deva Ramanan. <i>CVPR 2019</i>. [<a href="https://arxiv.org/pdf/1906.04728.pdf">arXiv</a>]<br>
+                                - <b>Non-Adversarial Image Synthesis with Generative Latent Nearest Neighbors</b>. Yedid Hoshen, Jitendra Malik. <i>CVPR 2019</i>. [<a href="https://arxiv.org/pdf/1812.08985.pdf">arXiv</a>]<br>
+                                - <b>Conditional Adversarial Generative Flow for Controllable Image Synthesis</b>. Rui Liu, Yu Liu, Xinyu Gong, Xiaogang Wang, Hongsheng Li. <i>CVPR 2019</i>. [<a href="https://arxiv.org/pdf/1904.01782.pdf">arXiv</a>]<br>
+                                - <b>Unsupervised Primitive Discovery for Improved 3D Generative Modeling</b>. Salman H. Khan, Yulan Guo, Munawar Hayat, Nick Barnes. <i>CVPR 2019</i>. [<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Khan_Unsupervised_Primitive_Discovery_for_Improved_3D_Generative_Modeling_CVPR_2019_paper.pdf">paper</a>]
+                              </p>
+                            </div>
+                          </td>
+                          <td>Amit & John</td>
                         </tr>
 
                         <tr>
@@ -128,8 +164,8 @@
 
                         <tr>
                           <td>Nov 6, 2019</td>
-                          <td><font color=red>CVPR deadline approaching</font></td>
-                          <td>--</td>
+                          <td>CVPR editing/review</td>
+                          <td>Everyone</td>
                         </tr>
 
                         <tr>
@@ -445,6 +481,7 @@
       <script src="assets/js/util.js"></script>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script>
+      <script src="assets/js/custom.js"></script>
 
   </body>
 </html>

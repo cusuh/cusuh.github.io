@@ -1,0 +1,16 @@
+.accordion {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: 1em 0 0 0;
+    overflow: hidden;
+}
+
+.panel {
+    display: none;
+}
+
+.panel p {
+    margin: 1em 0 0 0;
+}
