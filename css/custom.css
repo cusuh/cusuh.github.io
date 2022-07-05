@@ -27,3 +27,8 @@ hr {
 .about-desc p {
   margin-bottom: 0px;
 }
+
+.colorlib-footer p{
+  position: absolute;
+  bottom: 0;
+}
