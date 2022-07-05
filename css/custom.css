@@ -1,0 +1,29 @@
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#cccccc;
+  height: 1px;
+}
+
+.blog-entry {
+  margin-bottom: 1em;
+}
+
+.timeline-entry h2 {
+  margin: 0 0 0 0 ;
+}
+
+#colorlib-aside .colorlib-footer ul li a {
+  color: rgba(0, 50, 200, 0.3);
+}
+
+.colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
+  padding-top:  2em;
+  padding-bottom: 2em;
+}
+
+.about-desc p {
+  margin-bottom: 0px;
+}
